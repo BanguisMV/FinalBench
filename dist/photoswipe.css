@@ -364,11 +364,6 @@ background-color: #dc3545;
   text-align: center;
 }
 
-#about {
-  display: none;
-}
-
-
 #loader-wrapper {
   position:fixed;
   top:0;
