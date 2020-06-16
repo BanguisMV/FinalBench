@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="description" content="BENCH/ began in 1987 as a small store selling men’s t-shirts. Then, it grew at an unparalleled rate becoming the pioneer in the use of celebrity endorsers, television, and giant billboards to propel a fashion brand that offers premium quality products at affordable prices.
+    From being the number one store of men’s apparel, BENCH/ has grown to include a ladies’ line, underwear, fragrances, housewares, snacks, and a wide array of other lifestyle products. Throughout the years, BENCH/ has achieved the distinction of being present virtually in every retail space in the Philippines, and has built a worldwide network of stores and outlets, reaching as far as the United States, the Middle East, and China.
+    As it sliced through demographic divisions -- age, gender, socio-economic status -- a stirring slogan, “BENCH/ is forever”, became the company’s abiding creed.">
+    <meta name="description" content="World Class Brand">
+    <meta name="description" content="Mark Vergel B. Banguis">
+    <meta name="description" content="Bench/ Surigao City">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/dist/photoswipe.css"> 
@@ -68,40 +78,52 @@
                     Categories
                     </a>  
                     <div class="dropdown-menu text-center align-middle p-4" aria-labelledby="dropdownMenuLink">
-                         <a class="dropdown-item cuteness" href="#" value="1">T-Shirt</a>
+                         <a class="dropdown-item cuteness" href="/layouts/mens.html" value="1">Mens</a>
+                         <a class="dropdown-item cuteness" href="/layouts/women.html" value="1">Women</a>
+                         <a class="dropdown-item cuteness" href="/layouts/ess.html" value="1">Essentials</a>
+                         <a class="dropdown-item cuteness" href="/layouts/body.html" value="1">Body & Bath</a>
+                         <a class="dropdown-item cuteness" href="/layouts/ass.html" value="1">Accessories</a>
                     </div>
+
                 </div>
 
-            
-            
-            
-            
-            
                  </div>
-
+                 <hr class="lead">
 
                     <!--Categery Images-->
                     <div class="row mt-5 row-cols-4 row-cols-sm-4 grid1">
                             <div class="col-sm-3 grid1-1">
-                                <img src="/images/categories/Men.jpg" alt="" srcset="" class="w-100 shadow-1 rounded cat" >
+                              <a href="/layouts/mens.html">  <img src="/images/categories/Men.jpg" alt="" srcset="" class="w-100 shadow-1 rounded cat" ></a>
+                              
                             </div>
                             <div class="col-sm-3 grid1-2">
+                              <a href="/layouts/body.html">
                                 <img src="/images/categories/B_B.jpg" alt="" srcset="" class="w-100  shadow-1 rounded cat">
+                              </a>
+                               
                             </div>
                             <div class="col-6 col-sm-6 grid1-3">
+                              <a href="/layouts/ess.html">
                                 <img src="/images/categories/Essentials_home_static_block.jpg" alt="" srcset="" class="w-100   shadow-1 rounded cat">
+                              </a>
                             </div>
                       </div>
 
                       <div class="row row-cols-4 row-cols-sm-4 text-center mt-5 mb-5 grid2">
                             <div class="col-6 col-sm-6 gabi">
+                              <a href="/layouts/women.html">
                                 <img src="/images/categories/Women_Cat_Banner_Main.jpg" alt="" srcset="" class="w-100  shadow-1 rounded cat">
+                              </a>
                             </div>
                             <div class="col-sm-3">
+                              <a href="/layouts/women.html">
                                 <img src="/images/categories/Women.jpg" alt="" srcset="" class="w-100  shadow-1 rounded cat">
+                              </a>
                             </div>
                             <div class="col-sm-3">
+                              <a href="/layouts/ass.html">
                                 <img src="/images/categories/ACC.jpg" alt="" srcset="" class="w-100  shadow-1 rounded cat">
+                              </a>
                             </div>
                      </div>
                   
@@ -186,11 +208,8 @@
             window.addEventListener('load',function(){
             document.querySelector('body').classList.add("loaded")  
             });
-
-            $('.carousel').carousel()
-
             $('.carousel').carousel({
-                interval: 800
+                interval: 2000
                 })
         </script>
   </body>
